@@ -3,6 +3,8 @@ layout: post
 title: Pumpkin Soup Recipe
 ---
 
+![Pumpkin](https://images.unsplash.com/photo-1508322345744-2745200b300f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
 ## Ingredients:
 - 800g pumpkin, peeled and cubed
 - 1 onion, diced
