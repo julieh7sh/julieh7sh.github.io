@@ -34,7 +34,16 @@
     </div>
 
     {% if site.ga_analytics %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
     <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga_analytics }}');
+    </script>
+    <!-- <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
@@ -56,7 +65,7 @@
       );
       ga("create", "{{ site.ga_analytics }}", "auto");
       ga("send", "pageview");
-    </script>
+    </script> -->
     {% endif %}
   </body>
 </html>
