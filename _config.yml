@@ -1,6 +1,6 @@
 # Setup
 title: julieh7sh
-url: https://julieh7sh.github.io
+url: https://julieh7sh.xyz
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -33,7 +33,7 @@ ga_analytics: G-JXP4N5FY96
 # Specify the author for blog posts
 author:
   name: julieh7sh
-  url: https://julieh7sh.github.io
+  url: www.julieh7sh.xyz
   email: julieh7sh@gmail.com
 
 # Custom vars
