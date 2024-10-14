@@ -3,10 +3,11 @@ layout: post
 title: Example content
 ---
 
-**Howdy!** This is an example blog post that shows several types of HTML content supported in this theme.
+*Howdy!* This is an example blog post that shows several types of HTML content supported in this theme.
 {: .message }
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Cum sociis natoque penatibus et magnis <a href="https://www.w3schools.com/" target="_blank">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+{: .message }
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
@@ -34,6 +35,8 @@ Footnotes are supported as part of the Markdown syntax. Here's one in action. Cl
 Clicking this number[^fn-sample_footnote]
 {% endhighlight %}
 
+Markdown is intended to be as easy-to-read and easy-to-write as is feasible.[^fn-gruber-markdown]
+
 Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
 
 {% highlight text %}
@@ -42,11 +45,14 @@ Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the f
 
 You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
 
+# Heading 1
 ## Heading
+...
+###### Heading 6
 
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
-### Code
+## Code
 
 Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.
 
@@ -89,12 +95,18 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. N
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
 - Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  - one
+  - two
+  - three 
 - Donec id elit non mi porta gravida at eget metus.
 - Nulla vitae elit libero, a pharetra augue.
 
 Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
 
 1. Vestibulum id ligula porta felis euismod semper.
+    1. one
+    2. two
+    3. three
 2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 3. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
@@ -117,9 +129,20 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
+![kitchen](https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1268&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "My kitchen")
+
+![kitchen](/assets/images/kitchen.jpg "Asset image")
+{: .img-w-65 }
+
+<img src="/assets/images/kitchen.jpg" alt="kitchen" width="30%" />
+
 ![placeholder](http://placehold.it/800x400 "Large example image")
 ![placeholder](http://placehold.it/400x200 "Medium example image")
 ![placeholder](http://placehold.it/200x200 "Small example image")
+
+### Videos 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=mexvsroNF7hmnRHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Tables
 
@@ -166,3 +189,5 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
+
+[^fn-gruber-markdown]: John Gruber, creator of Markdown, in his original introduction.[Link](https://daringfireball.net/projects/markdown/)

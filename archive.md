@@ -3,7 +3,7 @@ layout: default
 title: Archive
 ---
 
-# Archive
+<h1 class="page-title">Archive</h1>
 
 Browse all posts by month and year.
 

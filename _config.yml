@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: julieh7sh
+url: https://julieh7sh.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: julieh7sh
+  url: https://julieh7sh.github.io
+  email: julieh7sh@gmail.com
 
 # Custom vars
 version: 3.0.0
