@@ -4,7 +4,7 @@ title: Pumpkin Soup Recipe
 ---
 
 ## Ingredients:
-- 500g pumpkin, peeled and cubed
+- 800g pumpkin, peeled and cubed
 - 1 onion, diced
 - 2 cloves garlic, minced
 - 500ml vegetable stock
